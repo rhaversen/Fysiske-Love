@@ -1,0 +1,195 @@
+body {
+    font-family: "verdana";
+    font-size: 1em;
+    background-color: white;
+    color: black;
+    margin: : 0 0 100px;
+    margin-bottom: 10;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+a:link {
+    color: darkslateblue;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: darkslateblue;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #8a83b5;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #cdcadf;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.formula {
+    float: left;
+}
+
+footer {
+    background-color: steelblue;
+    padding-bottom: 25px;
+    padding-top: 2px;
+    text-align: center;
+    color: white;
+    clear: both;
+    position: sticky;
+    height: 20px;
+    width: 100%;
+    overflow: hidden;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 12px;
+}
+
+Header {
+    background-color: skyblue;
+    text-align: left;
+    color: darkblue;
+    padding-top: 1px;
+    width: 100%;
+}
+
+aside {
+    float: right;
+    max-width: 200px;
+    padding: 1%;
+    margin: 15px;
+    background-color: skyblue;
+    font-size: 15px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+nav {
+    background-color: skyblue;
+    text-align: center;
+    height: 33px;
+    clear: both;
+    color: darkblue;
+    padding: 5px;
+    font-family: "verdana";
+    float: none;
+}
+
+section {
+    background-color: white;
+    font-family: "verdana";
+    font-size: 17px;
+    color: black
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+.kontakt_os a {
+    margin: 50%;
+}
+
+.navbuttons {
+    padding: 15px
+}
+
+.navbuttons a:hover {
+    padding: 30px;
+}
+
+.navigation a {
+    vertical-align: sub;
+    font-family: monospace;
+    font-size: 12px;
+    color: black;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+footer a {
+    color: darkslateblue;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.navigation a:hover {
+    background-color: #6295aa;
+    padding: 15px;
+}
+
+@media (max-width: 900px) {
+    aside {
+        text-align: left;
+        padding: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        float: right;
+        max-width: 100%;
+        clear: both;
+        margin: 0px;
+    }
+
+    nav {
+        padding: 5px;
+        height: 25px;
+    }
+
+    .navbuttons a:hover{
+        padding: 40px;
+    }
+
+    .navigation a {
+        padding: 5px;
+        font-size: 10px;
+    }
+
+    .navigation a:hover {
+        padding: 10px;
+        font-size: 10px;
+    }
+
+    img {
+        max-height: 100px;
+        float: left;
+    }
+
+    body {
+        font-family: "verdana";
+        font-size: 0.8em;
+        background-color: white;
+        color: black;
+
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+@media (max-height: 450px) {
+
+    img {
+        max-height: 100px;
+        float: right;
+    }
+
+    aside {
+        font-family: "verdana";
+        font-size: 0.8em;
+        background-color: white;
+        color: black;
+        margin: : auto;
+        margin-bottom: auto;
+    }
